@@ -170,7 +170,7 @@
     } ]
   } ],
   "identityProviders" : [ {
-    "alias" : "DemoIDP",
+    "alias" : "eduGAIN",
     "providerId" : "saml",
     "enabled" : true,
     "updateProfileFirstLoginMode" : "on",
@@ -196,7 +196,7 @@
   } ],
   "identityProviderMappers" : [ {
     "name" : "mail",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "mail",
@@ -204,7 +204,7 @@
     }
   }, {
     "name" : "displayname",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "displayname",
@@ -212,7 +212,7 @@
     }
   }, {
     "name" : "eduPersonAffiliation",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "eduPersonAffiliation",
@@ -220,7 +220,7 @@
     }
   }, {
     "name" : "commonName",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "commonName",
@@ -228,7 +228,7 @@
     }
   }, {
     "name" : "eduPersonTargetedID",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "eduPersonTargetedID",
@@ -236,7 +236,7 @@
     }
   }, {
     "name" : "eduPersonScopedAffiliation",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "eduPersonScopedAffiliation",
@@ -244,7 +244,7 @@
     }
   }, {
     "name" : "schacHomeOrganizationType",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "schacHomeOrganizationType",
@@ -252,7 +252,7 @@
     }
   }, {
     "name" : "schacHomeOrganization",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "schacHomeOrganization",
@@ -260,7 +260,7 @@
     }
   }, {
     "name" : "eduPersonPrincipalName",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "eduPersonPrincipalName",
@@ -268,7 +268,7 @@
     }
   }, {
     "name" : "eduPersonUniqueId",
-    "identityProviderAlias" : "DemoIDP",
+    "identityProviderAlias" : "eduGAIN",
     "identityProviderMapper" : "saml-user-attribute-idp-mapper",
     "config" : {
       "user.attribute" : "eduPersonUniqueId",

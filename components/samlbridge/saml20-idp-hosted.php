@@ -21,7 +21,7 @@ $metadata['__DYNAMIC:1__'] = array(
 	 * Authentication source to use. Must be one that is configured in
 	 * 'config/authsources.php'.
 	 */
-	'auth' => 'cyclone-saml-bridge',
+	'auth' => 'sixsq-saml-bridge',
 
 	'NameIDFormat' => 'urn:oasis:names:tc:SAML:2.0:nameid-format:persistent',
 
