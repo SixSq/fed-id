@@ -57,15 +57,15 @@ header('X-Frame-Options: SAMEORIGIN');
     </title>
 
     <script type="text/javascript"
-            src="<?php echo SimpleSAML_Module::getModuleUrl('cyclone/resources/jquery/dist/jquery.js') ?>"></script>
+            src="<?php echo SimpleSAML_Module::getModuleUrl('sixsq/resources/jquery/dist/jquery.js') ?>"></script>
     <script type="text/javascript"
-            src="<?php echo SimpleSAML_Module::getModuleUrl('cyclone/resources/bootstrap/dist/js/bootstrap.js') ?>"></script>
+            src="<?php echo SimpleSAML_Module::getModuleUrl('sixsq/resources/bootstrap/dist/js/bootstrap.js') ?>"></script>
     <link rel="stylesheet" type="text/css"
-          href="<?php echo SimpleSAML_Module::getModuleUrl('cyclone/resources/bootstrap/dist/css/bootstrap.css') ?>"/>
+          href="<?php echo SimpleSAML_Module::getModuleUrl('sixsq/resources/bootstrap/dist/css/bootstrap.css') ?>"/>
     <link rel="stylesheet" type="text/css"
-          href="<?php echo SimpleSAML_Module::getModuleUrl('cyclone/resources/bootstrap/dist/css/bootstrap-theme.css') ?>"/>
+          href="<?php echo SimpleSAML_Module::getModuleUrl('sixsq/resources/bootstrap/dist/css/bootstrap-theme.css') ?>"/>
 
-    <link rel="stylesheet" type="text/css" href="<?php echo SimpleSAML_Module::getModuleUrl('cyclone/style.css') ?>"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo SimpleSAML_Module::getModuleUrl('sixsq/style.css') ?>"/>
     <link rel="icon" type="image/icon" href="/<?php echo $this->data['baseurlpath']; ?>resources/icons/favicon.ico"/>
 
     <?php
@@ -138,7 +138,7 @@ if ($onLoad !== '') {
         <!-- Brand -->
         <div class="navbar-header">
             <a class="navbar-brand" href="/<?php echo $this->data['baseurlpath']; ?>">
-            <img alt="Cyclone" src="<?php echo SimpleSAML_Module::getModuleUrl('cyclone/cyclone-logo.png') ?>">
+            <img alt="SixSq" src="<?php echo SimpleSAML_Module::getModuleUrl('sixsq/sixsq-logo.png') ?>">
 
             </a>
         </div>
