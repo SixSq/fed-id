@@ -1,7 +1,7 @@
 [ {
   "id" : "master",
   "realm" : "master",
-  "displayName" : "Cyclone Demo Federation Provider",
+  "displayName" : "SixSq Federated Identity Portal",
   "displayNameHtml" : "",
   "enabled": true,
   "sslRequired" : "none",
