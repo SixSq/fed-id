@@ -551,7 +551,7 @@
     "failureFactor" : "30",
     "quickLoginCheckMilliSeconds" : "1000",
     "maxDeltaTimeSeconds" : "43200",
-    "displayName" : "Cyclone Demo Federation Provider",
+    "displayName" : "SixSq Federated Identity Portal",
     "_browser_header.xContentTypeOptions" : "nosniff",
     "bruteForceProtected" : "false",
     "maxFailureWaitSeconds" : "900",
