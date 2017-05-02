@@ -422,7 +422,7 @@ $config = array(
      * Which theme directory should be used?
      * => 'moduleName:theme'
      */
-    'theme.use' => 'sixsq:sixsq',
+    'theme.use' => 'default:default',
 
 
     /*
