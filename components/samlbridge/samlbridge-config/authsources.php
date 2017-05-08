@@ -108,14 +108,14 @@ $config = array(
             array(
                 'contactType' => 'administrative',
                 'emailAddress' => 'info@sixsq.com ',
-                'givenName' => '',
-                'surName' => ''
+                'givenName' => 'SixSq',
+                'surName' => 'Info'
             ),
             array(
                 'contactType' => 'support',
                 'emailAddress' => 'support@sixsq.com',
-                'givenName' => '',
-                'surName' => ''
+                'givenName' => 'SixSq',
+                'surName' => 'Support'
             )
         ),
 
