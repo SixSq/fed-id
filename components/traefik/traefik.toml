@@ -9,4 +9,4 @@ defaultEntryPoints = ["http", "https"]
             [entryPoints.https.tls]
             [[entryPoints.https.tls.certificates]]
                 CertFile = "/ssl/server.crt"
-                ​KeyFile = "/ssl/server.pem"
+                KeyFile = "/ssl/server.pem"
