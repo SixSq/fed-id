@@ -88,7 +88,8 @@ $config = array(
             'Logo' => array(
                 array(
                     'url' => 'http://sixsq.com/img/content/logo_sixsq.png',
-                    'height' => 150
+                    'height' => 150,
+                    'width' => 150
                 )
             ),
             'PrivacyStatementURL' => array(

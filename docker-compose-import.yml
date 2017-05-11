@@ -10,7 +10,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./components/traefik/traefik.toml:/traefik.toml
-      - ./components/samlbridge/samlbridge-cert:/ssl:ro
+      - ./components/traefik/cert:/ssl:ro
     ports:
       - "80:80"
       - "443:443"
