@@ -1,3 +1,3 @@
-# server certificates
+# SP certificates
 
-This folder is populated on-the-fly by the running SlipStream VM.
+This folder is populated on-the-fly by the VM.
