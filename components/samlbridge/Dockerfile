@@ -1,4 +1,4 @@
-FROM php:apache
+FROM php:7.0.13-apache
 
 ENV SSP_VERSION=1.14.12
 ENV SSP_CHECKSUM=349ca4c4dd8f5cbd991dc291d859363568f0081fe368736b5d9d9d4cceeb1c59
@@ -30,4 +30,3 @@ RUN mkdir -p data metarefresh-edugain metadata/metarefresh &&\
 EXPOSE 80
 
 CMD ["apache2-foreground"]
-
