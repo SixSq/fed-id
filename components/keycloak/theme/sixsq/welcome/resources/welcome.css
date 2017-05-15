@@ -31,12 +31,12 @@ h1 {
     margin: 1rem auto 1rem auto;
     background-color: #337ab7;
     text-decoration: none;
-    font-weight: lighter;
     font-size: 1.5rem;
     display: block;
     padding: 1rem;
     color: white;
-    border-color: #2e6da4
+    border-color: #2e6da4;
+    border-radius: 10px;
 }
 
 .nav-wrapper .button:hover {
@@ -47,8 +47,10 @@ h1 {
 .nav-wrapper .link-text {
     text-align: center;
     display: block;
+    font-size: 16px;
+    color: #CCC;
 }
 
 .small {
-    font-size: 12px;
+    font-size: 13px;
 }
