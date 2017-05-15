@@ -37,6 +37,7 @@ h1 {
     color: white;
     border-color: #2e6da4;
     border-radius: 10px;
+    width: 20rem;
 }
 
 .nav-wrapper .button:hover {
@@ -47,8 +48,11 @@ h1 {
 .nav-wrapper .link-text {
     text-align: center;
     display: block;
-    font-size: 16px;
     color: #CCC;
+}
+
+.medium {
+  font-size: 16px;
 }
 
 .small {
