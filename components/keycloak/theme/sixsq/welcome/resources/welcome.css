@@ -1,0 +1,46 @@
+body {
+    background: #222222;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.logo {
+    background-image: url("./sixsq_logo_256px.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.nav-wrapper {
+    display: inline-block;
+}
+
+.nav-wrapper .button {
+    margin: 1rem auto 1rem auto;
+    background-color: #337ab7;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    display: block;
+    padding: 1rem;
+    color: white;
+}
+
+.nav-wrapper .button:hover {
+    background-color: #167ac6;
+    transition: 0.3s;
+}
+
+.nav-wrapper .link-text {
+    text-align: center;
+}
+
+.small {
+    font-size: 12px;
+}
