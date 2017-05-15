@@ -1,14 +1,17 @@
 body {
     background: #222222;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .wrapper {
     text-align: center;
+    padding: 30px;
 }
 
 h1 {
     font-weight: lighter;
     color: white;
+    font-variant: small-caps;
 }
 
 .logo {
@@ -16,6 +19,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
+    width: 256px;
+    height: 256px;
 }
 
 .nav-wrapper {
@@ -31,15 +36,17 @@ h1 {
     display: block;
     padding: 1rem;
     color: white;
+    border-color: #2e6da4
 }
 
 .nav-wrapper .button:hover {
-    background-color: #167ac6;
+    background-color: #286090;
     transition: 0.3s;
 }
 
 .nav-wrapper .link-text {
     text-align: center;
+    display: block;
 }
 
 .small {
