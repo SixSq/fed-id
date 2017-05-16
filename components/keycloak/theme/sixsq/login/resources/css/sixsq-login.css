@@ -4,6 +4,11 @@
 	color: #555;
 }
 
+ul.languages-list{
+	white-space:nowrap;
+	display: inline;
+}
+
 #kc-logo {
 	margin-bottom: 20px;
 }
@@ -54,6 +59,11 @@ label {
 .cy-btn-social:hover,
 .cy-btn-social:focus {
 	color: #ffffff !important;
+}
+
+#kc-social-providers li{
+	list-style: none;
+	margin: 5px auto 5px auto;
 }
 
 #cy-form-buttons input, #kc-social-providers li a {
