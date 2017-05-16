@@ -5,6 +5,7 @@
     <#elseif section = "header">
     ${msg("oauthGrantTitleHtml",(realm.displayNameHtml!''))}
     <#elseif section = "form">
+        <img id="client-logo-wrapper" src="${properties.cycloneLink}/assets/images/logo_${client.clientId}.png" alt="<#if client.name??>${client.name}<#else>${client.clientId}</#if> Logo"/>
         <h2 id="cy-client-header">
             <strong><#if client.name??>${advancedMsg(client.name)}<#else>${client.clientId}</#if></strong>
         </h2>
