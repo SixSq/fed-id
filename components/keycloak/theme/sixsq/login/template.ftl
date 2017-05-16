@@ -50,7 +50,7 @@
                     <div id="kc-locale-wrapper" class="${properties.kcLocaleWrapperClass!}">
                         <div class="kc-dropdown" id="kc-locale-dropdown">
                             <a href="#" id="kc-current-locale-link">${locale.current}</a>
-                            <ul class="languages-list">
+                            <ul>
                                 <#list locale.supported as l>
                                     <li class="kc-dropdown-item"><a href="${l.url}">${l.label}</a></li>
                                 </#list>
