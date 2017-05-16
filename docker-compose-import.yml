@@ -88,3 +88,4 @@ services:
     depends_on:
       - keycloak
       - samlbridge
+    command: curl --silent "http://samlbridge:80/samlbridge/module.php/cron/cron.php?key=$SAMLBRIDGE_CRON&tag=daily"
