@@ -7,6 +7,10 @@ defaultEntryPoints = ["http", "https"]
         [entryPoints.https]
         address = ":443"
             [entryPoints.https.tls]
-            [[entryPoints.https.tls.certificates]]
-                CertFile = "/ssl/server.crt"
-                KeyFile = "/ssl/server.pem"
+
+[acme]
+email = "support@sixsq.com"
+storage = "acme.json"
+entryPoint = "https"
+[[acme.domains]]
+   main = "fed-id.nuv.la"
