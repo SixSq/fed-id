@@ -8,17 +8,3 @@
     background-repeat: no-repeat;
 		background-size: contain;
 }
-
-#kc-form-buttons input {
-	background-color: #337ab7;
-	color: white;
-	border-color: #2e6da4;
-	border-radius: 5px;
-	width: 20rem;
-	transition: 0.2s;
-}
-
-#kc-form-buttons input:hover {
-	background-color: #286090;
-	transition: 0.3s;
-}
