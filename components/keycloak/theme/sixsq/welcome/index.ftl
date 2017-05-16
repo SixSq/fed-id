@@ -12,8 +12,9 @@
 			<div class="logo"></div>
 			<h1>SixSq Federated Identity Portal</h1>
 			<div class="nav-wrapper">
+				<a href="/samlbridge" class="button-smaller">SSP SAMLbridge</a>
 				<a href="/auth/admin" class="button">Master Realm</a>
-				<a href="http://sixsq.com/" class="link-text medium">SixSq Website</a>
+				<a href="http://sixsq.com/" class="link-text medium">SixSq website</a>
 				<a href="#" class="link-text small">Privacy Policy</a>
 			</div>
 		</div>

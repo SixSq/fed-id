@@ -41,8 +41,28 @@ h1 {
     transition: 0.2s;
 }
 
+.nav-wrapper .button-smaller {
+    margin: 1rem auto 1rem auto;
+    background-color: #CCC;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    display: block;
+    padding: 0.8rem;
+    color: black;
+    border-color: none;
+    border-radius: 5px;
+    width: 20rem;
+    transition: 0.2s;
+}
+
 .nav-wrapper .button:hover {
     background-color: #286090;
+    transition: 0.3s;
+}
+
+.nav-wrapper .button-smaller:hover {
+    background-color: #CCD;
     transition: 0.3s;
 }
 
@@ -58,5 +78,6 @@ h1 {
 }
 
 .small {
-    font-size: 13px;
+    font-size: 12.5px;
+    font-style: italic;
 }
