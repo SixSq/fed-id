@@ -6,6 +6,7 @@
         ${msg("loginTitleHtml",(realm.displayNameHtml!''))}
     <#elseif section = "form">
         <#if realm.password>
+            <a id="cy-local-toggle" href="#kc-form" onclick="var doc=document.getElementById('cy-local-login');doc.style.visibility=(doc.style.visibility!=='visible')?'visible':'collapse';">Local Login</a>
             <form id="cy-local-login" class="${properties.cyLocalLoginClass!}" action="${url.loginAction}" method="post">
 		        <#if realm.password && realm.registrationAllowed && !usernameEditDisabled??>
         		    <div id="kc-registration">
@@ -55,8 +56,10 @@
             </form>
         </#if>
     <#elseif section = "info" >
+		<#if client.clientId??>
+			<img id="client-logo-wrapper" src="${properties.cycloneLink}/assets/images/logo_${client.clientId}.png" alt="<#if client.name??>${client.name}<#else>${client.clientId}</#if> Logo"/>
 		</#if>
-        <h2 id="cy-info-title">Login with:</h2>
+        <h2 id="cy-info-title">Login with..</h2>
         <#if realm.password && social.providers??>
             <div id="kc-social-providers">
                 <ul>
