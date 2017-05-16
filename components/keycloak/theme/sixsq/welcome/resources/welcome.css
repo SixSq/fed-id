@@ -43,10 +43,10 @@ h1 {
 
 .nav-wrapper .button-smaller {
     margin: 1rem auto 1rem auto;
-    background-color: #CCC;
+    background-color: rgba(150,150,150,0.8);
     text-decoration: none;
     font-weight: lighter;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     display: block;
     padding: 0.8rem;
     color: black;
@@ -69,15 +69,16 @@ h1 {
 .nav-wrapper .link-text {
     text-align: center;
     display: block;
-    color: #CCC;
     margin: 10px;
 }
 
 .medium {
   font-size: 16px;
+  color: white;
 }
 
 .small {
     font-size: 12.5px;
+    color: #CCC;
     font-style: italic;
 }

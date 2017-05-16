@@ -6,7 +6,6 @@
         ${msg("loginTitleHtml",(realm.displayNameHtml!''))}
     <#elseif section = "form">
         <#if realm.password>
-            <a id="cy-local-toggle" href="#kc-form" onclick="var doc=document.getElementById('cy-local-login');doc.style.visibility=(doc.style.visibility!=='visible')?'visible':'collapse';">Local Login</a>
             <form id="cy-local-login" class="${properties.cyLocalLoginClass!}" action="${url.loginAction}" method="post">
 		        <#if realm.password && realm.registrationAllowed && !usernameEditDisabled??>
         		    <div id="kc-registration">

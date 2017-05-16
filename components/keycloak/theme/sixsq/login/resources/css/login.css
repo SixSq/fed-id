@@ -101,7 +101,7 @@ label {
 }
 
 #cy-local-login {
-	visibility: collapse;
+	visibility: visible;
 	margin-top: 1rem;
 }
 
