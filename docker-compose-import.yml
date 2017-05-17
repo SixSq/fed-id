@@ -10,6 +10,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./components/traefik/traefik.toml:/traefik.toml
+      - ./components/traefik/cert:/ssl:ro
     ports:
       - "80:80"
       - "443:443"
@@ -85,6 +86,14 @@ services:
       - EXCLUDED_USERS
     volumes:
       - ./components/cron/periodic:/etc/periodic
+    depends_on:
+      - keycloak
+      - samlbridge
+
+  startup_cron:
+    build: ./components/cron
+    environment:
+      - SAMLBRIDGE_CRON
     depends_on:
       - keycloak
       - samlbridge
