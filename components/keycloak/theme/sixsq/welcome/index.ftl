@@ -15,7 +15,7 @@
 				<a href="/samlbridge" class="button-smaller">SSP SAMLbridge</a>
 				<a href="/auth/admin" class="button">Master Realm</a>
 				<a href="http://sixsq.com/" class="link-text medium">SixSq website</a>
-				<a href="#" class="link-text small">Privacy Policy</a>
+				<a href="http://sixsq.com/legal/aai_privacy" class="link-text small">Privacy Policy</a>
 			</div>
 		</div>
 	</div>
