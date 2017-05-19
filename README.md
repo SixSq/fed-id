@@ -133,3 +133,14 @@ EOF
 
 systemctl restart fail2ban
 ```
+
+---
+
+The portal will finally be at:
+https://yourhostname
+
+Traefik redirects this request to the Keycloak interface automatically at https://yourhostname/auth
+
+The SAMLbridge is also available at https://yourhostname/samlbridge
+
+Traefik also provides a dashboard at http://yourhostname:8080
