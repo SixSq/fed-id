@@ -17,6 +17,9 @@ $config = array(
                     array(
                       'src' => 'http://metadata.aai.switch.ch/metadata.switchaai.xml',
                     ),
+                    array(
+                      'src' => 'http://metadata.aai.switch.ch/entities/interfederation+idp',
+                    ),
                     /*
                     array(
                         'src' => 'https://www.aai.dfn.de/fileadmin/metadata/DFN-AAI-Basic-metadata.xml',
