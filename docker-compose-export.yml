@@ -9,7 +9,7 @@ services:
     command: --web --docker --docker.exposedByDefault=false --loglevel=info
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - ./components/traefik/traefik.toml:/traefik.toml
+      - ./components/traefik/traefik-fixed_certs.toml:/traefik.toml
       - ./components/traefik/cert:/ssl:ro
     ports:
       - "80:80"
@@ -20,7 +20,7 @@ services:
     build:
       context: ./components/keycloak
     restart: unless-stopped
-    command: -b 0.0.0.0 -Dkeycloak.migration.action=import -Dkeycloak.migration.provider=singleFile -Dkeycloak.migration.strategy=IGNORE_EXISTING -Dkeycloak.migration.file=/opt/jboss/exports/kcexport.json
+    command: -b 0.0.0.0 -Dkeycloak.migration.action=export -Dkeycloak.migration.provider=singleFile -Dkeycloak.migration.strategy=IGNORE_EXISTING -Dkeycloak.migration.file=/tmp/kcexport-snapshot.json
     environment:
       - KEYCLOAK_REALM
       - KEYCLOAK_USER
@@ -73,7 +73,6 @@ services:
       - ./components/samlbridge/000-default.conf:/etc/apache2/sites-available/000-default.conf
       - ./components/samlbridge/php.ini:/usr/local/etc/php/conf.d/php.ini
       - ./components/samlbridge/mpm_prefork.conf:/etc/apache2/mods-enabled/mpm_prefork.conf
-      - ./components/samlbridge/AuthnRequest.php:/var/simplesamlphp/vendor/simplesamlphp/saml2/src/SAML2/AuthnRequest.php
     expose:
       - "80"
 
